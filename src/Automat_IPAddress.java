@@ -30,7 +30,7 @@ public class Automat_IPAddress {
                   if (zeichen == 1){
                     zustand = z1;
                   }
-                  if ((zeichen >=3 )&& (zeichen<=9){
+                  if ((zeichen >=3 )&& (zeichen<=9)){
                       zustand = z3;
                 }
 
