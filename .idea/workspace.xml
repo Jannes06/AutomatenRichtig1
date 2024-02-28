@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="Es fängt wieder an :(" />
+    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="Es fängt wieder an :(">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomatNEA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomatNEA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/List (1).java" beforeDir="false" afterPath="$PROJECT_DIR$/src/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zustand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zustand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EinAus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EinAus.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +47,7 @@
     "Application.Starter.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -58,7 +66,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\janne\IdeaProjects\AutomatenRichtig2\src" />
       <recent name="C:\Users\janne\IdeaProjects\GrammatikRichtig\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -92,6 +104,7 @@
       <updated>1708948564662</updated>
       <workItem from="1708948565753" duration="1568000" />
       <workItem from="1709124861650" duration="2586000" />
+      <workItem from="1709128299966" duration="9754000" />
     </task>
     <task id="LOCAL-00001" summary="Es fängt wieder an :(">
       <option name="closed" value="true" />
