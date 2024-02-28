@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="Es fängt wieder an :(">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Automat_IPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Automat_IPAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EinAus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EinAus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Starter.java" afterDir="false" />
-    </list>
+    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="Es fängt wieder an :(" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +48,12 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -84,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1708948564662</updated>
       <workItem from="1708948565753" duration="1568000" />
-      <workItem from="1709124861650" duration="2282000" />
+      <workItem from="1709124861650" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="Es fängt wieder an :(">
       <option name="closed" value="true" />
@@ -110,7 +117,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708954446263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Es fängt wieder an :(">
+      <option name="closed" value="true" />
+      <created>1709127243209</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709127243209</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Es fängt wieder an :(">
+      <option name="closed" value="true" />
+      <created>1709127285537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709127285537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
