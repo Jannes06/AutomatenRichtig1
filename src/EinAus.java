@@ -34,7 +34,7 @@ public class EinAus extends JFrame implements ActionListener {
       if (cmd.equals("Analyse")) {   
         String zeile = EingabeFeld.getText();
          //Erzeugen und Initialisieren des Automaten
-         Automat1 meinAutomat = new Automat1 (zeile);
+         Automat_IPAddress meinAutomat = new Automat_IPAddress (zeile);
          if (meinAutomat.sagtJa())   
             AusgabeFeld.setText ("Ja");
         else

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="Es fängt wieder an :(" />
+    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="Es fängt wieder an :(">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Automat_IPAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Automat_IPAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EinAus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EinAus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Starter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2cu5L0CsO8iQhaTNPvTJcaemG7J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Starter.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -48,6 +54,20 @@
       <recent name="C:\Users\janne\IdeaProjects\GrammatikRichtig\src" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Starter" />
+      <module name="GrammatikRichtig" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Starter" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -63,7 +83,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708948564662</updated>
-      <workItem from="1708948565753" duration="1503000" />
+      <workItem from="1708948565753" duration="1568000" />
+      <workItem from="1709124861650" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="Es fängt wieder an :(">
       <option name="closed" value="true" />
@@ -73,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708950350581</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Es fängt wieder an :(">
+      <option name="closed" value="true" />
+      <created>1708954387352</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708954387352</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Es fängt wieder an :(">
+      <option name="closed" value="true" />
+      <created>1708954446263</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708954446263</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
