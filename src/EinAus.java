@@ -34,12 +34,13 @@ public class EinAus extends JFrame implements ActionListener {
       if (cmd.equals("Analyse")) {   
         String zeile = EingabeFeld.getText();
          //Erzeugen und Initialisieren des Automaten
-         AutomatNEA meinAutomat = new AutomatNEA();
-         meinAutomat.pruefeWort(zeile);
-        // if (meinAutomat.())
-         //   AusgabeFeld.setText ("Ja");
-      //  else
-      //      AusgabeFeld.setText ("Nein");
+        // AutomatNEA meinAutomat = new AutomatNEA();
+          AutomatKeller_acb meinAutomat = new AutomatKeller_acb(zeile);
+        // meinAutomat.pruefeWort(zeile);
+         if (meinAutomat.sagtJa())
+            AusgabeFeld.setText ("Ja");
+        else
+           AusgabeFeld.setText ("Nein");
       } 
       else if (cmd.equals("Ende")) { 
         setVisible(false);
