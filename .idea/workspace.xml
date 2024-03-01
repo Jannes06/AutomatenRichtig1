@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="NEA und Kellerautomat (eigeninterpretation) steht">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutomatKeller_acb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomatKeller_acb.java" afterDir="false" />
-    </list>
+    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="IP Automat,NEA und Kellerautomat stehen" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +104,7 @@
       <workItem from="1709124861650" duration="2586000" />
       <workItem from="1709128299966" duration="9901000" />
       <workItem from="1709223232089" duration="1681000" />
-      <workItem from="1709292107607" duration="3285000" />
+      <workItem from="1709292107607" duration="3489000" />
     </task>
     <task id="LOCAL-00001" summary="Es fängt wieder an :(">
       <option name="closed" value="true" />
@@ -173,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709281782759</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="NEA und Kellerautomat (eigeninterpretation) steht">
+      <option name="closed" value="true" />
+      <created>1709295912620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709295912620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +188,7 @@
     <MESSAGE value="Es fängt wieder an :(" />
     <MESSAGE value="NEA steht" />
     <MESSAGE value="NEA und Kellerautomat (eigeninterpretation) steht" />
-    <option name="LAST_COMMIT_MESSAGE" value="NEA und Kellerautomat (eigeninterpretation) steht" />
+    <MESSAGE value="IP Automat,NEA und Kellerautomat stehen" />
+    <option name="LAST_COMMIT_MESSAGE" value="IP Automat,NEA und Kellerautomat stehen" />
   </component>
 </project>
