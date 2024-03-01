@@ -27,63 +27,72 @@ public class AutomatKeller_acb {
         speicher.push("#");
         while (zeichen != '$') {
             switch (zustand) {
-                case z0:
-                    if (zeichen == 'c') {
-                       zustand = z0;
-                    }
-                   else if ((speicher.top()=="#") && zeichen =='a'){
-                      zustand = z1;
-                      speicher.push("a");
-                   }
-                   else  if ((speicher.top()=="#") && zeichen =='b'){
-                        zustand = z1;
-                        speicher.push("b");
-                   }
-                   else { zustand = err;}
 
+                case z0: //================================================
+
+                        if (zeichen == 'a') {
+                            if (speicher.top() == "#") {
+                                speicher.push("a");
+                                zustand = z1;
+                            }
+                        }
+                        else if (zeichen == 'b') {
+                            if (speicher.top() == "#") {
+                                speicher.push("b");
+                                zustand = z1;
+                            }
+                        }
+                       else  if (zeichen == 'c') {
+                           zustand = z0;
+                        }
+                       else {zustand = err;}
+
+                       break;
+                case z1:   //======================================================
+                    if (zeichen == 'a') {
+                        if (speicher.top() == "#") {
+                            speicher.push("a");
+                            zustand = z1;
+                        }
+                        else if (speicher.top() == "a") {
+                            speicher.push("a");
+                            zustand = z1;
+                        }
+                        else if (speicher.top() == "b") {
+                            speicher.pop();
+                            zustand = z1;
+                        }
+                    }
+                   else if (zeichen == 'b') {
+                        if (speicher.top() == "#") {
+                            speicher.push("b");
+                            zustand = z1;
+                        }
+                      else  if (speicher.top() == "b") {
+                            speicher.push("b");
+                            zustand = z1;
+                        }
+                      else  if (speicher.top() == "a") {
+                            speicher.pop();
+                            zustand = z1;
+                        }
+                    }
+                    else if (zeichen == 'c') {
+                        zustand = z1;
+                    }
+                    else {zustand = err;}
+                    
                     break;
-                case z1:
-                    if (zeichen == 'c') {
-                        zustand = z1;
-                    }
-                    else if ((speicher.top()=="a") && zeichen =='a'){
-                        speicher.push("a");
-                        zustand = z1;
-                    }
-                    else  if ((speicher.top()=="a") && zeichen =='b'){
-                        speicher.pop();
-                        zustand = z1;
-                    }
-                    else  if ((speicher.top()=="b") && zeichen =='b'){
-                        speicher.push("b");
-                        zustand = z1;
-                    }
-                    else  if ((speicher.top()=="b") && zeichen =='a'){
-                        speicher.pop();
-                        zustand = z1;
-                    }
-                    else if ((speicher.top()=="#") && zeichen =='a'){
-                        zustand = z1;
-                        speicher.push("a");
-                    }
-                    else  if ((speicher.top()=="#") && zeichen =='b'){
-                        zustand = z1;
-                        speicher.push("b");
-                    }
 
-                    else { zustand = err;}
-                        zustand = z1;
-
-                    break;
                 default:
 
             }
             zeichen = cutFirst();
         }
-        if ((speicher.top()=="#") && zeichen == '$'){
-            zustand = z0;
-        }
-        return (zustand == z0);
+        return((speicher.top()=="#") && zeichen == '$'&& zustand!=err );
+
+
+        
     }
 
 

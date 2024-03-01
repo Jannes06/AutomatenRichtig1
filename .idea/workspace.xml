@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="NEA steht">
-      <change afterPath="$PROJECT_DIR$/src/AutomatKeller_acb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack.java" afterDir="false" />
+    <list default="true" id="d7e4c3a5-356d-4512-b353-b62493b0d77a" name="Changes" comment="NEA und Kellerautomat (eigeninterpretation) steht">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EinAus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EinAus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutomatKeller_acb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AutomatKeller_acb.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,8 @@
       <workItem from="1708948565753" duration="1568000" />
       <workItem from="1709124861650" duration="2586000" />
       <workItem from="1709128299966" duration="9901000" />
-      <workItem from="1709223232089" duration="1539000" />
+      <workItem from="1709223232089" duration="1681000" />
+      <workItem from="1709292107607" duration="3285000" />
     </task>
     <task id="LOCAL-00001" summary="Es fängt wieder an :(">
       <option name="closed" value="true" />
@@ -167,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709223774559</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="NEA und Kellerautomat (eigeninterpretation) steht">
+      <option name="closed" value="true" />
+      <created>1709281782759</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709281782759</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Es fängt wieder an :(" />
     <MESSAGE value="NEA steht" />
-    <option name="LAST_COMMIT_MESSAGE" value="NEA steht" />
+    <MESSAGE value="NEA und Kellerautomat (eigeninterpretation) steht" />
+    <option name="LAST_COMMIT_MESSAGE" value="NEA und Kellerautomat (eigeninterpretation) steht" />
   </component>
 </project>
